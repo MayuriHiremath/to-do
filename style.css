@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#todo-list {
+    padding: 0;
+}
+
+.list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid hsl(48, 33%, 3%);
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.high {
+    background-color: #43bde2;
+    color: rgb(225, 236, 224);
+}
+
+.medium {
+    background-color:#c4398f; 
+    color: #f0f1f7;
+}
+
+.low {
+    background-color: #4718a0;
+    color: #fff;
+}
+
